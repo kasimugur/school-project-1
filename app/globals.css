@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.activeHeader{
+  @apply bg-zinc-500/15 p-3 rounded transition duration-700  hover:bg-slate-400/5 !important;
+}
